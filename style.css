@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.responsive-photo-90 {
+display: block;
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+max-width: 760px
+
+}
+
+
+body{
+font-family:Calibri,Verdana,sans-serif;
+font-size:1.4rem;
+line-height:2.0;
+}
+
+li{
+font-size:1.2rem;
+}
