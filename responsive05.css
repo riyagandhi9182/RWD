@@ -157,7 +157,7 @@ img {
     }
 
     section img {
-        float: left;
+    
         /*We are floating images in sections for a more compact smartphone design*/
         padding: 10px;
     }
