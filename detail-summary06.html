@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+    <style>
+        @media (max-width:480px) {
+
+            details {
+                color: cadetblue;
+            }
+           
+            summary {
+                font-size: 1.25rem;
+                cursor: pointer;
+                background-color: lightcyan;
+                margin: 5px;
+                padding: 5px;
+            }
+
+            article {
+                display: none;
+            }
+        }
+
+
+
+        @media (min-width:481px) {
+
+            article {
+
+                width: 90%;
+                margin: 1%;
+                padding: 1%;
+                background-color: seashell;
+                min-height: 300px;
+
+            }
+
+            article summary {
+                display: contents;
+                color: cadetblue;
+            }
+
+            summary {
+                display: none;
+            }
+        }
+
+
+        }
+    </style>
+
+    <meta charset="UTF-8">
+
+    <title>show hide</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <h1>Networking Basics</h1>
+
+    <details>
+
+        <summary>
+
+            Question 1
+
+        </summary>
+        <p>How long is an IPv6 address?</p>
+
+        <p>A. 32 bits</p>
+        <p>B. 128 bytes</p>
+        <p>C. 64 bits</p>
+        <p>D. 128 bits</p>
+
+        <details>
+            <summary>Answer</summary>
+            <p> Option D</p>
+        </details>
+        <details>
+            <summary>Explaination</summary>
+            <p>An IPv6 address is 128 bits long. </p>
+        </details>
+
+    </details>
+
+
+
+    <details>
+
+        <summary>
+
+            Question 2
+
+        </summary>
+
+        <p>Which class of IP address has the most host addresses available by default?</p>
+
+        <p>A. A</p>
+        <p>B. B</p>
+        <p>C. C</p>
+        <p>D. A and B</p>
+
+        <details>
+            <summary>Answer</summary>
+            <p> Option A</p>
+        </details>
+        <details>
+            <summary>Explaination</summary>
+            <p>Class A addressing provides 24 bits for host addressing. </p>
+        </details>
+    </details>
+
+
+
+        <article>
+
+            <p>Question 1. How long is an IPv6 address?</p>
+
+            <p>A. 32 bits</p>
+            <p>B. 128 bytes</p>
+            <p>C. 64 bits</p>
+            <p>D. 128 bits</p>
+
+            <details>
+                <summary>Answer</summary>
+                <p> Option D</p>
+            </details>
+            <details>
+                <summary>Explaination</summary>
+                <p>An IPv6 address is 128 bits long. </p>
+            </details>
+
+        </article>
+
+
+        <article>
+
+            <p>Question 2. Which class of IP address has the most host addresses available by default?</p>
+
+            <p>A. A</p>
+            <p>B. B</p>
+            <p>C. C</p>
+            <p>D. A and B</p>
+
+            <details>
+                <summary>Answer</summary>
+                <p> Option A</p>
+            </details>
+            <details>
+                <summary>Explaination</summary>
+                <p>Class A addressing provides 24 bits for host addressing. </p>
+            </details>
+
+        </article>
+    </body>
+</html>
