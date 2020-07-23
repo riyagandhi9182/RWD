@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Connect!</title>
+
+
+
+    <style>
+        @media (max-width:481px) {
+            form {
+                background-color: #edd9d9;
+                padding: 20px;
+
+            }
+
+            label {
+                display: none;
+            }
+
+            input {
+                width: 100%;
+                height: 40px;
+                border-radius: 5px;
+            }
+            
+            #button{
+                background-color: cadetblue;
+                font-weight: 600;
+            }
+            
+        }
+        
+         @media (min-width:480px) {
+            form {
+                background-color: #e6e4e6;
+                padding: 20px;
+                width: 50%;
+
+            }
+
+            label {
+                font-weight: 400;
+                color: darkslategray;
+            }
+
+             input {
+                border-radius: 5px;
+        
+            }
+            
+            #button{
+                background-color: paleturquoise;
+                font-weight: 600;
+            }
+             
+             p{
+                 color: darkslategray;
+             }
+            
+        }
+    </style>
+
+
+</head>
+
+<html>
+
+<body>
+
+    <form action="http://davidkarlins.com/welcome.php" method="post">
+
+        <h1>Contact Info...</h1>
+
+        <p><label for="name">Name: </label>
+
+            <input name="name" id="name" placeholder="Enter your name here" />
+
+            <p><label for="email">Email: </label>
+
+                <input type="email" name="email" id="email" placeholder="Email" required />
+
+                <p><label for="url">URL: </label>
+
+                    <input type="url" name="url" id="url" placeholder="URL" />
+
+                    <p><label for="phone">Phone: </label>
+
+                        <input type="tel" name="phone" id="phone" placeholder="Phone" />
+
+                        <p>Best time to call:
+
+                            <input type="time" name="time" id="time" />
+
+                            <p><input type="submit" value="Connect!" id="button" />
+
+    </form>
+
+</body>
+
+</html>
